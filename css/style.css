@@ -3,7 +3,9 @@
 */
 body {
 	font-family: "Source Sans Pro", Arial, sans-serif;
-	background-color: #c7e1ff;
+	background-image:url('/img/geometry2.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
 	font-size: 13px;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -35,6 +37,9 @@ a:hover {
 html.touch .touchonly {
 	display: block;
 }
+
+.content {width:90%; margin-left:auto; margin-right:auto; text-align:center; border:0px solid transparent;}
+
 .noselect * {
 	user-select: none;
 	-webkit-user-select: none;
